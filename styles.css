@@ -1,0 +1,96 @@
+* {
+	/* These will reset the behaviour of padding so your width doesn't get bigger if you add padding */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+html,body {
+	margin:0;
+	padding: 0;
+}
+
+
+.container1 {
+	width: 50%;
+	height: 400px;
+	margin: 100px 25%;
+	background-color: yellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.flex1 {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+}
+
+.flex2 {
+	width: 200px;
+	height: 200px;
+	background-color:blue;
+	border-radius:50%;
+	margin-top: -50px;
+}
+
+
+.container2 {
+	width: 50%;
+	height:400px;
+	margin: 0px 25%;
+	background-color: purple;
+	position: relative;
+}
+
+
+.item1 {
+	width: 150px;
+	height: 150px;
+	background-color: lightblue;
+	position: absolute;
+	left:50%;
+	margin-left:-75px;  /* negative half of the width of item */
+	top:10%;
+	margin-top: 5px;
+}
+
+
+.item2{
+	width: 200px;
+	height: 200px;
+	background-color: pink;
+	border-radius: 50%;
+	position:absolute;
+	top: 150px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+
+.container3 {
+	background-color: lightgreen;
+	height: 100vh;
+	padding:50px;
+}
+
+.container4 {
+	height: 600px;
+	padding: 50px;
+	background-color: #dea8ff;
+}
+
+
+
+
+.sticky {
+	font-family: sans-serif;
+	margin-top: 0;
+	position: sticky;
+	top:100px;
+}
+
+
